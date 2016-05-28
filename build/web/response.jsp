@@ -6,6 +6,12 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+<%! 
+    String srcCity;
+%>
+<%
+    srcCity = request.getParameter("city_id");
+%>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -17,7 +23,7 @@
     <thead>
         <tr>
             <th colspan="2">
-                <%= request.getParameter("city_id")%>
+                <%=srcCity %>
             </th>
         </tr>
     </thead>
