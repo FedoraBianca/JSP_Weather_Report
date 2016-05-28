@@ -16,7 +16,9 @@
         <table border="0">
     <thead>
         <tr>
-            <th colspan="2">{placeholder}</th>
+            <th colspan="2">
+                <%= request.getParameter("city_id")%>
+            </th>
         </tr>
     </thead>
     <tbody>
