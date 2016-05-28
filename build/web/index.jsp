@@ -37,7 +37,9 @@
                         <form action="response.jsp">
                             <strong>Select a city below:</strong>
                             <select name="city_id">
-                                <option></option>
+                                <c:forEach var="row" items="${result.rows}">
+                                    <option value="${row.City}">${row.City}</option>
+                                </c:forEach>
                             </select>
                             <input type="submit" value="submit" name/>
                         </form>
