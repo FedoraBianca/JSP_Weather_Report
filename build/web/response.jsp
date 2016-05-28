@@ -46,6 +46,7 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
+    <center>
         <table border="0">
     <thead>
         <tr>
@@ -112,5 +113,6 @@
     
     </tbody>
 </table>
+    </center>
     </body>
 </html>

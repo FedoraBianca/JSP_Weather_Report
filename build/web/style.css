@@ -11,22 +11,25 @@ body {
     font-family: Verdana, Arial, sans-serif;
     font-size: smaller;
     padding: 50px;
-    color: #555;
+    color:  	#373854;
+    background-image: url("weather.png");
+    background-color: #cccccc;
+
 }
 
 h1 {
     text-align: left;
     letter-spacing: 6px;
-    font-size: 1.4em;
-    color: #be7429;
+    font-size: 2em;
+    color: #7e2c7f;
     font-weight: normal;
-    width: 450px;
+    width: 550px;
 }
 
 table {
     width: 580px;
     padding: 10px;
-    background-color: #c5e7e0;
+    background-color: #51aaff;
 }
 
 th {

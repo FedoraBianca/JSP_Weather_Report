@@ -16,6 +16,7 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
+    <center>
         
         <sql:setDataSource var="snapshot" driver="com.mysql.jdbc.Driver"
          url="jdbc:mysql://localhost/rocities"
@@ -48,6 +49,7 @@
                 </tr>
             </tbody>
         </table>
-
+        </center>
     </body>
+
 </html>
